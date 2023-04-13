@@ -53,6 +53,7 @@ li, a, span {
 button {
     border: none;
     outline-color: transparent;
+    cursor: pointer;
 }
 
 hr {
@@ -199,7 +200,7 @@ h6 {
 
 .plans-wrapper {
     width: 100%;
-    gap: 5rem;
+    gap: 3.5rem;
 }
 
 .product {
@@ -209,7 +210,7 @@ h6 {
     flex-direction: column;
 }
     .plan-content-wrapper {
-        padding: 0 1.5rem;
+        padding: 0 2rem;
     }
     .plan-user-tag {
         width: 100%;
@@ -241,6 +242,7 @@ h6 {
         }
         .plan-product-list > ul > li {
             margin-bottom: 1.5rem;
+            font-weight: 400;
         }
     .plan-purchase-actions {
         margin-top: 4rem;
@@ -258,12 +260,14 @@ h6 {
         .instant-puchase > a {
             text-decoration: underline;
         }
-        
+
     .plan-pros-cons > ul > li {
             margin-bottom: 1.5rem;
+            font-weight: 400;
         }
         .plan-pros-cons > ul > li > i {
             color: var(--color-blue);
+            font-weight: 800;
         }
     
 
