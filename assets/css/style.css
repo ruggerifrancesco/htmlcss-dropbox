@@ -55,6 +55,22 @@ button {
     outline-color: transparent;
 }
 
+hr {
+    width: 20%;
+    border: 1px solid lightgray;
+    margin: 3rem 0;
+}
+
+h6 {
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.list-item > i {
+    margin-right: 0.5rem;
+    line-height: 22px;
+}
+
 .temp-border {
     border: 1px dashed red;
 }
@@ -86,7 +102,7 @@ button {
     .main-content-space,
     .footer-content-space {
         margin: 0 auto;
-        width: 65%;
+        width: 60%;
     }
 
     .spc-btw-content {
@@ -193,7 +209,7 @@ button {
     flex-direction: column;
 }
     .plan-content-wrapper {
-        padding-left: 1.5rem;
+        padding: 0 1.5rem;
     }
     .plan-user-tag {
         width: 100%;
@@ -201,7 +217,56 @@ button {
         align-items: center;
         justify-content: center;
         gap: .5rem;
+        padding: 0.6rem 0;
     }
+    .general-infos {
+        margin-top: 2rem;
+    }
+        .plan-title {
+            font-size: 1.8rem;
+            margin-bottom: 1.2rem;
+        }
+        .plan-price {
+            font-weight: bold;
+            margin-bottom: 0.8rem;
+        }
+        .plan-timing{
+            color: gray;
+        }
+    .plan-product-list {
+        margin-top: 4rem;
+    }
+        .list-item {
+            align-items: flex-start;
+        }
+        .plan-product-list > ul > li {
+            margin-bottom: 1.5rem;
+        }
+    .plan-purchase-actions {
+        margin-top: 4rem;
+    }
+        .btn-puchase {
+            width: 100%;
+            padding: 0.8rem 0;
+            font-size: 0.95rem;
+            letter-spacing: 0.5px;
+        }
+        .instant-puchase {
+            margin-top: 2rem;
+            gap: 0.5rem;
+        }
+        .instant-puchase > a {
+            text-decoration: underline;
+        }
+        
+    .plan-pros-cons > ul > li {
+            margin-bottom: 1.5rem;
+        }
+        .plan-pros-cons > ul > li > i {
+            color: var(--color-blue);
+        }
+    
+
 
 .product-enterprise {
     width: 100%;
