@@ -76,10 +76,7 @@ button {
         background-color: var(--color-blue);
         color: var(--color-white);
     }
-    .hero-page-space {
-        margin: 0 auto;
-        width: 75%;
-    }
+    
     .main-content-space {
         margin: 0 auto;
         width: 65%;
@@ -133,22 +130,28 @@ button {
 .hero-wrapper {
     height: 100%;
 }
-/* Hero Grid Template */
 
-.hero-grid {
+/* Hero Grid Template */
+.hero-grid-container {
     height: 100%;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1.5fr repeat(3, 1fr) 0.5fr;
+    grid-template-columns: 1fr 1.5fr repeat(4, 1fr); 
+    grid-template-rows: repeat(3, 1fr) 0.4fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     }
     .hero-title { 
-        grid-area: 1 / 1 / 2 / 4; 
+        justify-content: center;
+        align-items: center;    
+        grid-area: 1 / 2 / 2 / 6; 
     }
     .hero-info { 
-        grid-area: 2 / 1 / 5 / 2; 
+        justify-content: center;
+        align-items: center;    
+        grid-area: 2 / 2 / 4 / 3; 
     }
     .hero-img { 
-        grid-area: 2 / 2 / 6 / 4; 
+        justify-content: center;
+        align-items: center;    
+        grid-area: 2 / 3 / 5 / 6; 
     }
     
