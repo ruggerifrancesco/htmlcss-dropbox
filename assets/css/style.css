@@ -98,13 +98,14 @@ h6 {
     .header-content-space {
         margin: 0 auto;
         width: 75%;
+        max-width: 1400px;
     }
 
     .main-content-space,
     .footer-content-space {
         margin: 0 auto;
         width: 60%;
-        min-width: 800px;
+        max-width: 1200px;
     }
 
     .spc-btw-content {
@@ -289,8 +290,9 @@ h6 {
         padding: 0 2rem 2rem;
     }
 
+/* TO DO Da riguardare */
 .btn-wrapper-contact {
-    width: 25%;
+    width: 20rem;
 }
     .btn-ctm-contact {
         padding: 0.8rem 0;
@@ -341,42 +343,48 @@ h6 {
     color: var(--color-white);
     }
     
-    .team-item1 { 
+    .grid1 { 
         grid-area: 1 / 1 / 2 / 2; 
         background-color: var(--designit-bg);
+        border: 15px solid var(--designit-bd);
     }
-    .team-item2 { 
+    .grid2 { 
         grid-area: 1 / 2 / 2 / 3; 
         background-color: var(--asu-bg);
     }
-    .team-item3 { 
+    .grid3 { 
         grid-area: 2 / 1 / 3 / 2; 
         background-color: var(--uf-florida-bg);
     }
-    .team-item4 { 
+    .grid4 { 
         grid-area: 2 / 2 / 3 / 3;
         background-color: var(--topps-bg); 
     }
-    .team-item5 {
+    .grid5 {
         grid-area: 1 / 3 / 3 / 5; 
         background-color: var(--designit-x2-bg);
     }
-    .team-item6 { 
+    .grid6 { 
         grid-area: 1 / 5 / 2 / 6;
         background-color: var(--world-byc-bg); 
     }
-    .team-item7 { 
+    .grid7 { 
         grid-area: 1 / 6 / 2 / 7; 
         background-color: var(--hearst-bg);
     }
-    .team-item8 { 
+    .grid8 { 
         grid-area: 2 / 5 / 3 / 6; 
         background-color: var(--lonely-pl-bg);
     }
-    .team-item9 { 
+    .grid9 { 
         grid-area: 2 / 6 / 3 / 7;
         background-color: var(--clear-channel-bg); 
     } 
+
+    .team-item > img {
+        filter: invert(100%);
+        width: 50%;
+    }
 
 .free-trial-wrapper {
     width: 100%;
