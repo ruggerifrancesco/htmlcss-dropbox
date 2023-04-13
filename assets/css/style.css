@@ -108,8 +108,12 @@ button {
         gap: 3rem;
     }
 
+.btn-start {
+    padding: 0.5rem 1rem;
+}
+
 .hero {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(800px);
     background-color: var(--header-bg);
 }
