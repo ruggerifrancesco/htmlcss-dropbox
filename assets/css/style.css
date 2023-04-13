@@ -63,6 +63,11 @@ li, a, span {
         display: grid;
     }
 
+    .btn {
+        background-color: var(--color-blue);
+        color: var(--color-white);
+    }
+
 /* Header Section */
 .navigation-bar {
     width: 100%;
