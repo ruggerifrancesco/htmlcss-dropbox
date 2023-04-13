@@ -78,11 +78,11 @@ button {
     }
     .hero-page-space {
         margin: 0 auto;
-        width: 80%;
+        width: 75%;
     }
     .main-content-space {
         margin: 0 auto;
-        width: 70%;
+        width: 65%;
     }
 
 /* Header Section */
@@ -127,19 +127,28 @@ button {
     width: 100%;
     height: calc(800px);
     background-color: var(--header-bg);
-    padding: 0 5rem;
+    padding: 5rem 0 0;
 }
 
-.parent {
-    display: grid;
+.hero-wrapper {
+    height: 100%;
+}
+/* Hero Grid Template */
+
+.hero-grid {
     height: 100%;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1.5fr repeat(3, 1fr);
+    grid-template-rows: 1.5fr repeat(3, 1fr) 0.5fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     }
-    
-    .div1 { grid-area: 1 / 1 / 2 / 4; }
-    .div2 { grid-area: 2 / 1 / 5 / 2; }
-    .div3 { grid-area: 2 / 2 / 5 / 4; }
+    .hero-title { 
+        grid-area: 1 / 1 / 2 / 4; 
+    }
+    .hero-info { 
+        grid-area: 2 / 1 / 5 / 2; 
+    }
+    .hero-img { 
+        grid-area: 2 / 2 / 6 / 4; 
+    }
     
