@@ -195,6 +195,9 @@ button {
     border: 2px solid lightgrey;
     flex-direction: column;
 }
+    .plan-content-wrapper {
+        padding-left: 1rem;
+    }
     .plan-user-tag {
         width: 100%;
         border-bottom: 2px solid lightgrey;
