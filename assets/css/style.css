@@ -272,5 +272,17 @@ button {
 
 /* Frequent questions[QaA] Section */
 .qaa-section {
-    height: 800px;
+    height: 700px;
+    width: 100%;
+}
+
+/* Footer Content */
+.footer {
+    background-color: var(--footer-bg);
+    color: var(--color-white);
+}
+
+.footer-links {
+    height: 300px;
+    flex-direction: column;
 }
