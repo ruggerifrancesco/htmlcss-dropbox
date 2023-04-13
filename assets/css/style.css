@@ -48,7 +48,8 @@ html {
     font-size: 16px;
 }
 
-li, a {
+li, a, span {
     list-style: none;
     text-decoration: none;
+    display: block;
 }
