@@ -211,3 +211,28 @@ button {
     height: 100%;
     width: calc(100% / 3);
 }
+
+/* Teams Display Section */
+.team-dpl-section {
+    width: 100%;
+    height: 600px;
+}
+
+/* Team Display Grid */
+.team-grid-template {
+    height: 100%;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .team-item1 { grid-area: 1 / 1 / 2 / 2; }
+    .team-item2 { grid-area: 1 / 2 / 2 / 3; }
+    .team-item3 { grid-area: 2 / 1 / 3 / 2; }
+    .team-item4 { grid-area: 2 / 2 / 3 / 3; }
+    .team-item5 { grid-area: 1 / 3 / 3 / 5; }
+    .team-item6 { grid-area: 1 / 5 / 2 / 6; }
+    .team-item7 { grid-area: 1 / 6 / 2 / 7; }
+    .team-item8 { grid-area: 2 / 5 / 3 / 6; }
+    .team-item9 { grid-area: 2 / 6 / 3 / 7; } 
