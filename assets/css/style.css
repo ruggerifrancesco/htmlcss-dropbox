@@ -272,3 +272,6 @@ button {
 }
 
 /* Frequent questions[QaA] Section */
+.qaa-section {
+    height: 800px;
+}
