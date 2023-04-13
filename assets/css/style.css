@@ -1,0 +1,37 @@
+/* CSS Reset Rule */
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Root Section */
+:root {
+    /* Color Scheme */
+    --color-white: white;
+    --color-black: black;
+    --color-blue: #0061ff; 
+
+    /* Header */
+    --header-bg: #b4d0e7;
+
+    /* Grid Companies Section */
+    --designit-bg: #a2d39b;
+    --designit-bd: #d1e9cd;
+    --asu-bg: #61082b;
+    --uf-florida-bg: #0093ce;
+    --topps-bg: #ff1c1c;
+    --designit-x2-bg: #f5f5f5;
+    --world-byc-bg: #d5001f;
+    --hearst-bg: #b4d0e7;
+    --lonely-pl-bg: #0d2481;
+    --clear-channel-bg: #ffd830;
+    --take-agency: #b4d0e7;
+
+    /* Footer */
+    --footer-bg: #000000;
+
+    /* General Measuraments */
+    
+    /* Google Fonts */
+}
