@@ -81,8 +81,14 @@ button {
         background-color: var(--color-blue);
         color: var(--color-white);
     }
+    
+    .header-content-space {
+        margin: 0 auto;
+        width: 75%;
+    }
 
-    .main-content-space {
+    .main-content-space,
+    .footer-content-space {
         margin: 0 auto;
         width: 65%;
     }
@@ -139,26 +145,31 @@ button {
 
 .hero-wrapper {
     height: 100%;
+    flex-direction: column;
 }
+    .hero-title {
+        width: 100%;
+        height: 200px;
+    }
+
+.hero-container {
+    height: 100%;
+}
+    .hero-info {
+        width: 30%;
+    }
+    .hero-img {
+        position: relative;
+        width: 70%;
+    }
+    .hero-img > img {
+        position: absolute;
+        left: 0;
+        top: 15%;
+        width: 100%;
+    }
 
 /* Hero Grid Template */
-.hero-grid-container {
-    height: 100%;
-    grid-template-columns: 1fr 1.5fr repeat(4, 1fr); 
-    grid-template-rows: repeat(3, 1fr) 0.4fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    }
-    .hero-title { 
-        grid-area: 1 / 2 / 2 / 6; 
-    }
-    .hero-info { 
-        grid-area: 2 / 2 / 4 / 3; 
-    }
-    .hero-img { 
-        grid-area: 2 / 3 / 5 / 6; 
-    }
-
 
 /* Main Content */
 .main-content {
