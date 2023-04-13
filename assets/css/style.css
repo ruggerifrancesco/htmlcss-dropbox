@@ -197,7 +197,7 @@ button {
     flex-direction: column;
 }
     .plan-content-wrapper {
-        padding-left: 1rem;
+        padding-left: 1.5rem;
     }
     .plan-user-tag {
         width: 100%;
