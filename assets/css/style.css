@@ -32,6 +32,23 @@
     --footer-bg: #000000;
 
     /* General Measuraments */
-    
+
     /* Google Fonts */
+}
+
+/* --- CSS Page Style Begin --- */
+
+/* General Tags */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    /* Forced All Browsers to 16px reset */
+    font-size: 16px;
+}
+
+li, a {
+    list-style: none;
+    text-decoration: none;
 }
