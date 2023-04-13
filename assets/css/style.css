@@ -281,8 +281,11 @@ button {
     background-color: var(--footer-bg);
     color: var(--color-white);
 }
-
-.footer-links {
-    height: 300px;
-    flex-direction: column;
+.footer-top {
+    /*  */
 }
+    .footer-links {
+        height: 300px;
+        flex-direction: column;
+        flex: 1 1 20%;
+    }
