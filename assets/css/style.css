@@ -76,6 +76,14 @@ button {
         background-color: var(--color-blue);
         color: var(--color-white);
     }
+    .hero-page-space {
+        margin: 0 auto;
+        width: 80%;
+    }
+    .main-content-space {
+        margin: 0 auto;
+        width: 70%;
+    }
 
 /* Header Section */
 .navigation-bar {
