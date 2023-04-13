@@ -215,12 +215,11 @@ button {
 /* Teams Display Section */
 .team-dpl-section {
     width: 100%;
-    height: calc(100vw / 3);
 }
 
 /* Team Display Grid */
 .team-grid-template {
-    height: 100%;
+    height: calc(100vw / 3);
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
