@@ -193,6 +193,7 @@ button {
     /* height: 900px; */
     width: calc(100% / 3);
     border: 2px solid lightgrey;
+    flex-direction: column;
 }
     .plan-user-tag {
         width: 100%;
