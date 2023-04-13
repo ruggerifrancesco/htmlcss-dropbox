@@ -190,9 +190,17 @@ button {
 }
 
 .product {
-    height: 800px;
+    /* height: 900px; */
     width: calc(100% / 3);
+    border: 2px solid lightgrey;
 }
+    .plan-user-tag {
+        width: 100%;
+        border-bottom: 2px solid lightgrey;
+        align-items: center;
+        justify-content: center;
+        gap: .5rem;
+    }
 
 .product-enterprise {
     width: 100%;
