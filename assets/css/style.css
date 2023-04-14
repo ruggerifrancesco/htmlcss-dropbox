@@ -393,6 +393,7 @@ h6 {
 }
 .teams-info-wrapper {
     margin-bottom: 10rem;
+    margin-top: 5rem;
 }
     .teams-info-wrapper > h3 {
         margin-bottom: 4rem;
@@ -490,7 +491,6 @@ h6 {
 
 /* Frequent questions[QaA] Section */
 .qaa-section {
-    height: 700px;
     width: 100%;
 }
     .qaa-dpdown-item {
