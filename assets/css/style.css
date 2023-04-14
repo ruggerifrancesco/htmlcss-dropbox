@@ -131,14 +131,14 @@ h6 {
             padding: 0.8rem 2rem; 
         }
     
-    .header-content-space {
+    .header-content-space,
+    .footer-content-space {
         margin: 0 auto;
         width: 75%;
         max-width: 1400px;
     }
 
-    .main-content-space,
-    .footer-content-space {
+    .main-content-space {
         margin: 0 auto;
         width: 60%;
         max-width: 1200px;
