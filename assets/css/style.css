@@ -371,6 +371,18 @@ h6 {
 .team-dpl-section {
     width: 100%;
 }
+.teams-info-wrapper {
+    margin-bottom: 10rem;
+}
+    .teams-info-wrapper > h3 {
+        margin-bottom: 4rem;
+        width: 60%;
+    }
+    .link-clients-about > a {
+        text-decoration: underline;
+        color: var(--color-blue);
+        font-size: large;
+    }
 
 /* Team Display Grid */
 .team-grid-template {
