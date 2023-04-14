@@ -107,10 +107,18 @@ h6 {
         align-items: center;    
     }
 
-    .btn-blue {
-        background-color: var(--color-blue);
-        color: var(--color-white);
+    .btn {
+        padding: 0.8rem 0;
+        font-size: 0.95rem;
+        letter-spacing: 0.5px;
     }
+        .btn-blue {
+            background-color: var(--color-blue);
+            color: var(--color-white);  
+        }
+        .btn-transparent {
+
+        }
     
     .header-content-space {
         margin: 0 auto;
@@ -224,7 +232,7 @@ h6 {
     flex-direction: column;
 }
     .plan-content-wrapper {
-        padding: 0 2rem;
+        padding: 0 2.5rem;
     }
     .plan-user-tag {
         width: 100%;
@@ -260,11 +268,9 @@ h6 {
     .plan-purchase-actions {
         margin-top: 4rem;
     }
-        .btn-purchase {
+        .btn-purchase,
+        .btn-ctm-contact {
             width: 100%;
-            padding: 0.8rem 0;
-            font-size: 0.95rem;
-            letter-spacing: 0.5px;
         }
         .instant-purchase {
             margin-top: 2rem;
@@ -306,12 +312,6 @@ h6 {
 .btn-wrapper-contact {
     width: 20rem;
 }
-    .btn-ctm-contact {
-        padding: 0.8rem 0;
-        font-size: 0.95rem;
-        letter-spacing: 0.5px;
-        width: 100%;
-    }
 
 /* Contact Section */
 .contact-form {
@@ -427,9 +427,6 @@ h6 {
     .free-trial-btn {
         background-color: var(--designit-x2-bg);
         width: 20rem;
-        padding: 0.8rem 0;
-        font-size: 0.95rem;
-        letter-spacing: 0.5px;
     }
 
 /* Frequent questions[QaA] Section */
