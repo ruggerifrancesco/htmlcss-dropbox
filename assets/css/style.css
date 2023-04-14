@@ -43,6 +43,8 @@ body {
 }
 
 html {
+    scroll-behavior: smooth;
+    scroll-padding: 6rem;
     /* Forced All Browsers to 16px reset */
     font-size: 16px;
 }
@@ -56,6 +58,7 @@ li, a, span {
 img {
     display: block;
     width: 100%;
+    object-fit: contain;
 }
 
 button {
