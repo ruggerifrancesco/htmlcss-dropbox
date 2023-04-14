@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px dashed red;
+    /* outline: 1px dashed red; */
 }
 
 /* Root Section */
@@ -534,3 +534,18 @@ h6 {
         color: var(--color-white);
         font-size: 1.2rem;
     }
+
+.footer-bottom {
+    padding: 0 0 3rem;
+}
+    .footer-divisor {
+        width: 16%;
+        margin: 0;
+    }
+
+.language-selector {
+    margin-top: 4rem;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--color-lgrey);
+}
