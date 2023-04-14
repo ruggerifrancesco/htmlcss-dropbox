@@ -503,7 +503,14 @@ h6 {
 .qaa-dpdown-item {
     border-bottom: 2px solid var(--color-lgrey);
     padding: 4rem 0;
+    align-items: center;
+    justify-content: space-between;
 }
+    .qaa-dpdown-item > i {
+        margin-right: 3rem;
+        font-size: 1.2rem;
+        font-weight: 700;
+    } 
 
 /* Footer Content */
 .footer {
