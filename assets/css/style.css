@@ -173,7 +173,6 @@ h6 {
 /* Hero */
 .hero {
     width: 100%;
-    height: calc(800px);
     background-color: var(--header-bg);
     padding: 8rem 0 0;
 }
@@ -188,18 +187,16 @@ h6 {
 
 .hero-container {
     height: 100%;
+    position: relative;
+    top: 5rem;
 }
     .hero-info {
         width: 30%;
     }
     .hero-img {
-        position: relative;
         width: 70%;
     }
     .hero-img > img {
-        position: absolute;
-        left: 0;
-        top: 5%;
         width: 100%;
     }
 
