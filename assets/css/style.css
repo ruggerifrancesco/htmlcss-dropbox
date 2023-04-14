@@ -354,7 +354,6 @@ h6 {
 }
 
 .contact-img {
-    height: 100%;
     width: 60%;
     object-fit: cover;
 }
@@ -377,7 +376,6 @@ h6 {
 }
 
 .article-info {
-    height: 100%;
     width: calc(100% / 3);
 }
     .article-info > p {
