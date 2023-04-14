@@ -343,8 +343,9 @@ h6 {
 
 /* Aricle Operations Section */
 .articles-about-row {
+    margin-top: 4rem;
     height: 500px;
-    gap: 5rem;
+    gap: 3.5rem;
 }
 
 .article-info {
