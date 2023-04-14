@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: 1px dashed red;
 }
 
 /* Root Section */
@@ -52,6 +53,11 @@ li, a, span {
     display: block;
 }
 
+img {
+    display: block;
+    width: 100%;
+}
+
 button {
     border: none;
     outline-color: transparent;
@@ -73,6 +79,10 @@ h3 {
     font-weight: 700;
 }
 
+h4 {
+    font-size: 1.8rem;
+}
+
 h6 {
     font-size: 1rem;
     margin-bottom: 2.5rem;
@@ -81,10 +91,6 @@ h6 {
 .list-item > i {
     margin-right: 0.5rem;
     line-height: 22px;
-}
-
-.temp-border {
-    border: 1px dashed red;
 }
 
     /* Declarations of what displaying */
@@ -234,7 +240,6 @@ h6 {
         margin-top: 2rem;
     }
         .plan-title {
-            font-size: 1.8rem;
             margin-bottom: 1.2rem;
         }
         .plan-price {
@@ -313,12 +318,12 @@ h6 {
 /* Contact Section */
 .contact-form {
     margin-top: 4rem;
-    height: 600px;
 }
 
 .contact-img {
     height: 100%;
     width: 60%;
+    object-fit: cover;
 }
 
 .contact-info {
@@ -381,7 +386,6 @@ h6 {
         flex-direction: column;
         color: var(--color-black);
         line-height: 1.5rem;
-        overflow-y: auto;
     }
         .team-item:nth-child(5) > img {
             filter: invert(0%);
