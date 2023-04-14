@@ -235,6 +235,10 @@ h6 {
 .input-wrapper {
     margin-top: 4rem;
 }
+    .form-input-radio > input[type="radio"]:nth-child(3) {
+        gap: 2rem;
+        margin-left: 2rem;
+    }
 
 .plans-wrapper {
     width: 100%;
