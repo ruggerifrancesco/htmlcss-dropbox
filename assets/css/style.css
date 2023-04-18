@@ -413,11 +413,10 @@ h6 {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    color: var(--color-white);
     }
 
     .team-item > img {
-        filter: invert(100%);
+        filter: invert(1);
         width: 50%;
     }
     
@@ -445,15 +444,15 @@ h6 {
         flex-direction: column;
         color: var(--color-black);
         line-height: 1.5rem;
+        overflow-y: scroll;
     }
         .team-item:nth-child(5) > img {
-            filter: invert(0%);
+            filter: invert(0);
             align-items: flex-start;
         }
         .team-item:nth-child(5) > span {
             margin-top: 3rem;
         }
-    
     .grid6 { 
         grid-area: 1 / 5 / 2 / 6;
         background-color: var(--world-byc-bg); 
