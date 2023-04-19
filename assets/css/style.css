@@ -447,7 +447,7 @@ h6 {
         flex-direction: column;
         color: var(--color-black);
         line-height: 1.5rem;
-        overflow-y: scroll;
+        overflow: auto;
     }
         .team-item:nth-child(5) > img {
             filter: invert(0);
